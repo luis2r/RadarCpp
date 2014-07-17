@@ -64,20 +64,22 @@ extern int _fd[];
 extern EXPORTS WORD CALLBACK Receive_Cmd(char cPort, char szResult[],
 										 WORD wTimeOut, WORD wChksum);
 
-/* Macros to warp MS-Windows functions */
+/* Macros to warp MS-Windows functions
 #define Sleep(a)
-
-/* Macros to warp Turbo C functions */
+ */
+/* Macros to warp Turbo C functions 
 #define getch()   (int)getchar()
 #define getche()  (int)getchar()
 #define kbhit()   (int)getchar()
-
-/* Macros to warp DOS functions */
+*/
+/* Macros to warp DOS functions 
 #define RECEIVE_CMD(a, b, c, d) (int)Receive_Cmd((char)(a), (b), (long)(c), (int)(d))
 #define SEND_CMD(a,b,c,d) (int)Send_Cmd((char)(a), (b), (WORD)(d))
 #define OPEN_COM(p,b)     (int)Open_Com((char)(p), (DWORD)(b), Data8Bit, NonParity, OneStopBit)
 #define CLOSE_COM(p)      (int)Close_Com((char)(p))
+*/
 
+/*
 WORD Send_Receive_Cmd(char cPort, char szCmd[], char szResult[], WORD wTimeOut, WORD wChksum, WORD * wT);
 //WORD Receive_Cmd(char cPort, char szResult[], WORD wTimeOut, WORD wChksum);
 WORD Receive_Binary(char cPort, char szResult[], WORD wTimeOut, DWORD wLen, WORD *wT);
@@ -92,6 +94,6 @@ WORD FW_C2U_SendTrig(BYTE cPort, BYTE Trig);
 WORD SetLineStatus(BYTE cPort, BYTE DTR_Trig, BYTE RTS_Trig);
 
 #include "i7000.h"
-
+*/
 
 						/* _MSW_H */
