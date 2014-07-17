@@ -4,6 +4,10 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <itemPath>common.h</itemPath>
+      <itemPath>i7000.h</itemPath>
+      <itemPath>i7565H1H2.h</itemPath>
+      <itemPath>msw.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -12,7 +16,7 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>main.cpp</itemPath>
+      <itemPath>i7565H1H2.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -36,7 +40,15 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      <item path="common.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="i7000.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="i7565H1H2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="i7565H1H2.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="msw.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -59,7 +71,15 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      <item path="common.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="i7000.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="i7565H1H2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="i7565H1H2.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="msw.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
   </confs>
