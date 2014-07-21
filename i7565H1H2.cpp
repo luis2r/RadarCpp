@@ -1,6 +1,3 @@
-#ifdef __cplusplus
-extern "C" {
-#endif
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>
@@ -170,8 +167,6 @@ int main(void) {
     }
 }
 
-#ifdef __cplusplus
-}
-#endif
+
 
 
