@@ -12,6 +12,12 @@
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
                    projectFiles="true">
+      <logicalFolder name="f1" displayName="lib" projectFiles="true">
+        <itemPath>lib/libI7565H1H2.a</itemPath>
+        <itemPath>lib/libI7565H1H2_64.a</itemPath>
+        <itemPath>lib/libi7k.a</itemPath>
+        <itemPath>lib/libi7k_64.a</itemPath>
+      </logicalFolder>
     </logicalFolder>
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
@@ -48,6 +54,14 @@
       </item>
       <item path="i7565H1H2.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="lib/libI7565H1H2.a" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lib/libI7565H1H2_64.a" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lib/libi7k.a" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lib/libi7k_64.a" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="msw.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
@@ -78,6 +92,14 @@
       <item path="i7565H1H2.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="i7565H1H2.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lib/libI7565H1H2.a" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lib/libI7565H1H2_64.a" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lib/libi7k.a" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lib/libi7k_64.a" ex="false" tool="3" flavor2="0">
       </item>
       <item path="msw.h" ex="false" tool="3" flavor2="0">
       </item>

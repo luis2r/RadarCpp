@@ -1,7 +1,7 @@
 #PJ = i7565H1H2
 SHELL = /bin/sh
 
-LIBS =  lib/libI7565H1H2.a lib/libi7k.a
+LIBS =  lib/libI7565H1H2_64.a lib/libi7k_64.a
 TARGET = dist/Debug/GNU-Linux-x86/radarcpp
 
 CPP             = $(CROSS_COMPILE)g++

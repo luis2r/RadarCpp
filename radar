@@ -1,0 +1,11 @@
+##comunicacion serial###
+
+modprobe -r cdc_acm
+
+modprobe usbserial vendor=0x1b5c product=0x0202
+
+##1.dar permisos a usb###
+##open_port: Unable to open /dev/ttyUSB0 - Permission denied###
+
+sudo chmod o+rw /dev/ttyUSB0 
+
